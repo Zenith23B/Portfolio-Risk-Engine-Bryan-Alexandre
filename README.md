@@ -1,6 +1,9 @@
 
 Ce notebook construit un moteur d’analyse de risque de portefeuille en Python, avec téléchargement de prix historiques via Yahoo Finance, calcul des rendements, volatilité, Sharpe, drawdown, VaR et Expected Shortfall. Il simule aussi des scénarios de stress (2008, Covid, 2022) et un backtesting de la VaR via le test de Kupiec. Le portefeuille est diversifié avec des actions et ETF (SPY, QQQ, AAPL, NVDA, TLT, BND, GLD, etc.) et des poids fixes. Il analyse la corrélation entre actifs et la contribution de chacun au risque total. Il exporte ensuite les résultats sous forme de CSV/ZIP pour exploitation. En bref, c’est un outil de gestion quantitative du risque de portefeuille, très orienté finance quantitative et modélisation.
 
+
+Réponses aux questions 
+
 1. Quelle est l’action la plus volatile ?
 NVIDIA (NVDA) est l’action la plus volatile du portefeuille, avec une volatilité annualisée de 51,7 %, selon les données du cours.
 Cela signifie que ses rendements présentent des fluctuations particulièrement importantes par rapport aux autres actifs analysés.
